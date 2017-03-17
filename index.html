@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	 	<!--Meta Tags-->
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Practical Pin Tooling</title>
+		<meta name="description" content="Senior Thesis, Mechanical Enginer, Harvard Enginering for Shuya Gong, Practical Pin Tooling"/>
+		<meta name="author" content="Shuya Gong"/>
+
+		<!--Favicon-->
+		<link rel="shortcut icon" href="favicon.ico">
+		
+		<!--Fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700italic' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+
+		<!--CSS Stylesheets-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css"/>
+		<link rel="stylesheet" type="text/css" href="css/custom.css"/>
+		<link rel="stylesheet" type="text/css" href="css/grid.css"/>
+
+		<!--Javascript-->
+		<script type="text/javascript" src="js/bootstrap.js"/></script>
+		<script src="js/modernizr.custom.js"></script>
+
+	</head>
+	<body>
+	<div id="wrapper">
+	<div id="main" class="clearfix">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="intro header">
+					<h1><span>An Approach to Higher Resolution Digitally Reconfigurable Surface for</span> Practical Pin Tooling</h1>
+					<h2>Shuya Gong | Harvard University | Senior Thesis</h2>
+
+					<div class="stats" id="stats">
+						<div class="stats-content" id="percentage">
+							<div class="stats-label" id="percent">% Completed</div>
+							<div class="stats-value stats-value--level" id="levelValue">1</div>
+							<svg class="level-circle" id="levelCircle" viewbox="0 0 200 200">
+								<circle id="levelCircleBgr" r="80" cx="100" cy="100" fill="none" stroke="#00ffffff" stroke-width="24px"/></circle>
+								<circle id="levelCircleStroke" r="80" cx="100" cy="100" fill="none" #f25346 stroke="#d6483b" stroke-width="14px" stroke-dasharray="502" /></circle>
+							</svg>
+						</div>
+						<div class="stats-content" id="due">
+							<div class="stats-label">Days 'til due</div>
+							<div class="stats-value stats-value--dist" id="dueValue">245</div>
+						</div>
+						<!--
+						<div class="stats-content" id="energy">
+							<div class="stats-label">Energy Left</div>
+							<div class="stats-value stats-value--energy" id="energyValue">
+							<div class="energy-bar" id="energyBar"></div></div>
+						</div>
+						-->
+ 					</div>
+ 					<img src="img/pin.png" alt="pin tooling">
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid about">
+			<div class="section">
+				<h1><span>MOTIVATION</span></h1>
+				<h1>How rapid is rapid prototyping?</h1>
+				<div class="row">
+					<div class="col-md-6">
+						<p>The timescale for rapid prototyping has consistently been constrained by the manufacturing speeds of the machines used in additive or subtractive manufacturing. The aim in this project is to take a new approach to rapid prototyping by creating a digitally reconfigurable mold surface to be used in low pressure injection molding, or vacuum forming. <br> <br>Traditional molding processes require there to either be a target shape already created through additive manufacturing methods such as 3D printing, or through subtractive methods, and then put into a container with pliable or pourable molding material, then left to cure. Alternatively, a mold is created with the same methods, using a CAM software. The time required for either method is significant and creates excess waste materials.<br><br>This project will involve significant study, experimentation, and implementation with mechanical actuation, force transfer, material properties, electronic controls and  electromechanical systems, fluid properties, and heat transfer in order to create a higher resolution digitally reconfigurable surface that may be incorporated later into mold making techniques.</p>
+					</div>
+					<div class="col-md-6">
+						<p>The motivation from this project draws largely from my experiences in product design and rapid prototyping, and the need for alternative and truly rapid prototyping techniques in a new, agile manufacturing age. While rapid prototyping solutions in the past have significantly cut down manufacturing time to a couple of days or several hours, a high resolution, digitally configurable surfaces would allow the rapid prototyping of looks-like feels-like prototypes of medium to high fidelity on a production timescale of a few hours. <br><br>This project focuses on creating a many voxel to one motor actuation technique combined with a flexible surface to improve the resolution possible on a mechanically actuated, electronically controlled surface that can withstand moderate heat and pressure. This resolution and price point should be comparable to that of a standard 3D desktop printer. <em>The hope is that this will accelerate rapid prototyping to be truly rapid.</em></p>
+					</div>
+				</div>
+			</div> 
+
+			<div class="proto">
+				<h1><span>PROTOTYPES</span></h1>
+				<h1>Fail faster, succeed sooner</h1>
+				<div class="row">
+					<div class="col-md-12">
+						<h2>#Don'tGetReadyGetStarted. These are initial prototypes to test out initial assumptions. While not all of them were total failures, none can justifiably be called a success. <i>Click on any picture to learn more.</i></h2>
+					</div>
+				</div>
+
+				<div class="row">
+					<ul id="og-grid" class="og-grid">
+						<li>
+							<a href="#" data-largesrc="img/1.jpg" data-title="Testing thermal properties of <br>PETG plastic sheets" data-description="Measuring the shrinkage and testing amount of heat needed to effectively thermoform around the voxel array. This comparison shows a untreated sample of PETG 1/32 inch <em>(right)</em> and an identical sample <em>(left)</em> treated with 45 seconds of 100°C heat applied from 4 inches away with a heat gun.">
+								<img src="img/thumbs/1.jpg" alt="img02"/>
+							</a>
+						</li>
+						<li>
+							<a href="" data-largesrc="img/2.jpg" data-title="Voxel array made of nails" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+								<img src="img/thumbs/2.jpg" alt="img03"/>
+							</a>
+						</li>
+						<li>
+							<a href="" data-largesrc="img/3.jpg" data-title="PETC sheet formed over voxel array <br>with center offset" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+								<img src="img/thumbs/3.jpg" alt="img01"/>
+							</a>
+						</li>
+						<li>
+							<a href="" data-largesrc="img/4.jpg" data-title="Voxel head with caps" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+								<img src="img/thumbs/4.jpg" alt="img02"/>
+							</a>
+						</li>
+						<li>
+							<a href="" data-largesrc="img/5.jpg" data-title="Finished capped and sheathed voxel array" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+								<img src="img/thumbs/5.jpg" alt="img03"/>
+							</a>
+						</li>
+						<li>
+							<a href="" data-largesrc="img/6.jpg" data-title="Comparison between capped and uncapped<br>thermoformed PETG sheets" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+								<img src="img/thumbs/6.jpg" alt="img01"/>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+
+		<div id="footer" class="foot">
+			  <p>Shuya Gong &copy; 2017</p>
+		</div>
+
+
+		<!--Javascript-->
+
+		<!--Grid-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/grid.js"></script>
+		<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
+
+	</body>
+</html>
